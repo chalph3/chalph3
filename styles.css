@@ -527,13 +527,29 @@ p{
 /* End of Footer */
 
 /* Keyframes */
-
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
 @keyframes text_reveal{
-    
+    from {
+        margin-right: 100%;
+        width: 300%;
+    }
     100%{
         color: rgb(226, 225, 225);
     }
     
+    to {
+        margin-right: 0%;
+        width: 100%;
+    }
 }
 
 @keyframes hamburger_pulse{
