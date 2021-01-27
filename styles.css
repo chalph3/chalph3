@@ -201,8 +201,8 @@ p{
 }
 /* End of Header */
 
-/* Hero Section */
-#hero{
+/* home Section */
+#home{
     background-image: url(./img/Light.jpg);
     background-size: cover;
     background-position: top center;
@@ -210,7 +210,7 @@ p{
     z-index: 1;
     
 }
-#hero::after{
+#home::after{
     content: '';
     position: absolute;
     left: 0;
@@ -222,14 +222,14 @@ p{
     z-index: -1;
     
 }
-#hero .hero{
+#home .home{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
     
 }
-#hero h1{
+#home h1{
     display: block;
     width: fit-content;
     font-size: 4rem;
@@ -242,7 +242,7 @@ p{
 }
 
 
-/* End Hero Section */
+/* End home Section */
 
 /* Service Section */
 
@@ -559,11 +559,11 @@ p{
     h1.section-title {
         font-size: 6rem;
     }
-    /* Hero */
-    #hero h1 {
+    /* home */
+    #home h1 {
         font-size: 7rem;
     }
-    /* End of Hero Section */
+    /* End of home Section */
 
     /* Services Section */
     #services .service-bottom .service-item {
