@@ -244,7 +244,7 @@ p{
 
 /* End home Section */
 
-/* Service Section */
+/* Skills Section */
 
 #skills .skills{
     flex-direction: column;
@@ -253,7 +253,7 @@ p{
     margin: 0 auto;
     padding: 100px 0;
 }
-#skills .service-top p {
+#skills .skills-top p {
     color: black;
     font-size: 1.4rem;
     margin-top: 5px;
@@ -262,18 +262,18 @@ p{
     letter-spacing: .05rem;
     text-align: justify;
 }
-#skills .service-top{
+#skills .skills-top{
     max-width: 500px;
     margin: 0 auto;
 }
-#skills .service-bottom {
+#skills .skills-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
 }
-#skills .service-item {
+#skills .skills-item {
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
@@ -288,7 +288,7 @@ p{
     z-index: 1;
     overflow: hidden;
 }
-#skills .service-item::after{
+#skills .skills-item::after{
     content: '';
     position: absolute;
     left: 0;
@@ -299,29 +299,29 @@ p{
     opacity: .8;
     z-index: -1;
 }
-#skills .service-bottom .icon {
+#skills .skills-bottom .icon {
     height: 80px;
     width: 80px;
     margin-bottom: 20px;
 }
-#skills .service-bottom .icon img {
+#skills .skills-bottom .icon img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-#skills .service-item h2{
+#skills .skills-item h2{
     font-size: 2rem;
     color: darkslategrey;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
-#skills .service-item p{
+#skills .skills-item p{
     color:darkslategray;
     text-align: left;
     font-size: 1.4rem;
     line-height: 1.9rem;
 }
-/* End of Service Section*/
+/* End of Skills Section*/
 
 /* Project Section*/
 #projects .projects{
@@ -582,7 +582,7 @@ p{
     /* End of home Section */
 
     /* Skills Section */
-    #skills .service-bottom .service-item {
+    #skills .skills-bottom .skills-item {
         flex-basis: 45%;
         margin: 2.5%;
     }
@@ -695,7 +695,7 @@ p{
         display: none;
     }
     /* End Header */
-    #skills .service-bottom .service-item {
+    #skills .skills-bottom .skills-item {
         flex-basis: 22%;
         margin: 1.5%;
 
