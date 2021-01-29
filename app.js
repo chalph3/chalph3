@@ -3,6 +3,36 @@ const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
 const header = document.querySelector('.header.container');
 
+let intro = document.querySelector('.intro');
+let logo = document.querySelector('.logo-header');
+let logoSpan = document.querySelectorAll('.logo');
+
+window.addEventListener('DOMContentLoaded', ()=>{
+    setTimeout(()=>{
+        logoSpan.forEach((span, idx)=>{
+            setTimeout(()=>{
+                span.classList.add('active');
+            }, (idx + 1) * 400)
+        });
+        setTimeout(()=>{
+            logoSpan.forEach((span, idx)=>{
+                
+                setTimeout(()=>{
+                    span.classList.remove('active');
+                    span.classList.add('fade');
+                }, (idx + 1) * 50)
+            })
+        }, 2000);
+        
+        setTimeout(()=>{
+            intro.style.top = '-100vh';
+        }, 2300)
+       
+        
+    })
+    
+})
+
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
     mobile_menu.classList.toggle('active');
