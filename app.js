@@ -29,9 +29,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
         }, 2300)
        
         
-    })
+    });
     
-})
+});
 
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
