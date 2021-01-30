@@ -8,7 +8,15 @@
     box-sizing: border-box;
 }
 
-
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color:darkslategray;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
 html{
     font-size: 10px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -137,7 +145,7 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    color: rgb(240, 248, 255, 0.021);
+    color: rgb(108, 117, 125, 0.11);
     font-size: 13rem;
     letter-spacing: 50px;
     z-index: -1;
@@ -260,7 +268,7 @@ p{
 }
 #skills .skills-top p {
     color: black;
-    font-size: 1.4rem;
+    font-size: 2.3em;
     margin: 5px;
     line-height: 2.5rem;
     font-weight: 300;
@@ -282,9 +290,9 @@ p{
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     background-image: url(./img/sheets.jpeg);
     background-size: cover;
@@ -292,6 +300,7 @@ p{
     position: relative;
     z-index: 1;
     overflow: hidden;
+    height: 320px;
 }
 #skills .skills-item::after{
     content: '';
@@ -308,6 +317,7 @@ p{
     height: 80px;
     width: 80px;
     margin-bottom: 20px;
+    margin: 0 auto;
 }
 #skills .skills-bottom .icon img {
     height: 100%;
