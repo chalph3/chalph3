@@ -222,7 +222,7 @@ p{
 
 /* home Section */
 #home{
-    background-image: url(Light.jpg);
+    background-image: url(img/Light.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -299,7 +299,7 @@ p{
     flex-direction: column;
     padding: 20px;
     border-radius: 10px;
-    background-image: url(sheets.jpeg);
+    background-image: url(img/sheets.jpeg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
