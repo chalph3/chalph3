@@ -130,3 +130,26 @@ input {
 input::placeholder {
   color: #aaa;
 }
+@media only screen and (max-width: 600px) {
+  .btn {
+    font-size: 3.9rem;
+    padding: 2.8rem 0;
+    width: 30rem;
+    text-transform: uppercase;
+    height: 10rem;
+    text-align: center;
+    border: 0.1rem solid rgb(178, 181, 189);
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    color: rgb(178, 181, 189);
+    background-color: white;
+    border-radius: 10px;
+  }
+  h1 {
+    font-size: 7.5rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+}
