@@ -10,11 +10,11 @@
 
 h3{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    color:rgb(99, 99, 99);
+    font-weight: normal;
+    color:#444444;
     text-transform: uppercase;
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 1.9rem;
    
 }
@@ -55,11 +55,14 @@ p{
     font-size: 4rem;
     font-weight: 300;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
+    margin-top: 32px;
+    
 }
+
 .section-title span{
     color: rgb(178, 181, 189);
 }
@@ -127,7 +130,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     z-index: 1;
     overflow-x: hidden;
     transition: .5s ease left;
@@ -239,7 +242,6 @@ p{
     background-color: grey;
     opacity: .7;
     z-index: -1;
-    
 }
 #home .home{
     max-width: 1200px;
@@ -268,14 +270,14 @@ p{
 #skills .skills{
     flex-direction: column;
     text-align: center;
-    max-width: 1500px;
     margin: 0 auto;
     padding: 100px 0;
+   
 }
 #skills .skills-top p {
     color: black;
-    font-size: 2.1em;
-    margin: 5px;
+    font-size: 2.1rem;
+    margin: 40px 30px;
     line-height: 2.5rem;
     font-weight: 300;
     letter-spacing: .05rem;
@@ -298,8 +300,8 @@ p{
     justify-content: start;
     flex-direction: column;
     padding: 20px;
-    border-radius: 10px;
-    background-image: url(img/sheets.jpeg);
+    
+    background-color: rgb(178, 181, 189);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -314,7 +316,7 @@ p{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: rgb(178, 181, 189);
     opacity: .8;
     z-index: -1;
 }
@@ -330,23 +332,24 @@ p{
     object-fit: cover;
 }
 #skills .skills-item h2{
-    font-size: 2rem;
-    color: rgb(99, 99, 99);
+    font-size: 3rem;
+    color: #444444;
+    font-weight: normal;
     margin-bottom: 10px;
     text-transform: uppercase;
     text-align: center;
 }
 #skills .skills-item p{
-    color:rgb(133, 136, 145);
+    color:rgb(238, 235, 235);
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 2.3rem;
     margin-top: 10%;
 }
 h5{
-    color:rgb(133, 136, 145);
+    color:rgb(238, 235, 235);
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 2.3rem;
     font-weight: normal;
 }
@@ -355,12 +358,13 @@ h5{
 /* Project Section*/
 #projects .projects{
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px 20px;
 }
 #projects .projects-header h1{
     margin-bottom: 50px;
+    font-weight: 300;
 }
 #projects .all-projects {
     display: flex;
@@ -385,22 +389,29 @@ h5{
     height: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    border-radius: 2px;
+    justify-content: top;
     flex-direction: column;
     color: white;
+    
 }
 #projects .project-info h1{
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 320;
+    margin-top: 10px;
+    margin: 0 auto;
+    text-transform: uppercase;
 }
 #projects .project-info h2{
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-size: 3.2rem;
+    font-weight: 300;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 #projects .project-info p{
     color: grey;
     text-align: justify;
+    font-size: 1.8rem;
 }
 #projects .project-img{
     flex-basis: 50%;
@@ -429,7 +440,7 @@ h5{
 #about .about{
     flex-direction:column-reverse;
     text-align: center;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 100px 20px;
 }
@@ -441,14 +452,15 @@ h5{
     width: 100%;
 }
 #about .col-right h2{
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-size: 3rem;
+    font-weight: 300;
     letter-spacing:.2rem;
     margin-bottom: 10px;
 }
 #about .col-right p{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     line-height: 2.4rem;
+    font-size: 1.5rem;
 }
 #about .col-right .cta{
     margin-bottom: 50px;
@@ -476,7 +488,7 @@ h5{
 /* Contact Section */
 #contact .contact {
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 #contact .contact-items {
@@ -486,7 +498,7 @@ h5{
     width: 80%;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 2px;
     padding: 30px;
     margin: 30px;
     display: flex;
@@ -507,13 +519,13 @@ h5{
 }
 #contact .contact-info h1{
     font-size: 2.5rem;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 5px;
 }
 #contact .contact-info h2{
     font-size: 1.3rem;
     line-height: 2rem;
-    font-weight: 500;
+    font-weight: 300;
 }
 /*End of Contact Section*/
 
@@ -626,7 +638,7 @@ h5{
         flex-direction: row-reverse;
     }
     #projects .project-item {
-        height: 400px;
+        height: 500px;
         margin: 0;
         width: 100%;
         border-radius: 0;
@@ -725,13 +737,29 @@ h5{
         display: none;
     }
     /* End Header */
+    
+
     #skills .skills-bottom .skills-item {
         flex-basis: 22%;
-        margin: 1.5%;
+        margin: .7%;
 
     }
     #skills .skills-item{
-        height: 320px;
+        height: 500px;
+    }
+    #skills .skills-item p{
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+    #skills .skills-item h5{
+        font-size: 2.5rem;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+    #skills .skills-top p{
+        font-size: 3rem;
+        
     }
 } 
 /* End Media Query for Desktop */
